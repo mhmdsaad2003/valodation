@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body style="background-color: hsl(228deg 78.95% 96.27%)">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/3123i2lmPiL._AC_SY780_.jpg" class="w-75" />
+        </div>
+
+        <div class="col-md-6">
+          <h3>Creat Account</h3>
+          <p class="text-muted">
+            Lorem ipsum dolor sit, amet consectetur adipisicing <br />elit.
+            Culpa, voluptatum!
+          </p>
+          <h4 id="result"></h4>
+          <form  action="about.html" onsubmit=" return validate()">
+            <input
+              type="text"
+              id="user"
+              placeholder="Name"
+              name="user"
+              class="form-control mb-4"
+            />
+
+            <input
+              type="text"
+              id="email"
+              placeholder="Email"
+              name="email"
+              class="form-control mb-4"
+            />
+
+            <input
+              type="password"
+              id="password"
+              placeholder="password"
+              name="pass"
+              class="form-control mb-4"
+            />
+
+            <input
+              type="password"
+              id="confirm"
+              placeholder="Confirm password"
+              name="confirm"
+              class="form-control mb-4"
+            />
+            <input
+              type="submit"
+              value="Creat New Account"
+              class="btn btn-success btn-block"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
